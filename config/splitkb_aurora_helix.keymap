@@ -93,7 +93,7 @@ As such, those are in use within the default layer at this time.*/
                      &trans     &trans       &trans       &trans       &trans       &trans       &trans          &trans   &trans          &trans          &trans          &trans          &trans          &trans
                      >;
               };
-               TEST {
+               TEST_layer {
                      // ---------------------------------------------------------------------------------------------------------------------------------
                      // |       |       |       |       |       |       |                                    |       |       |       |       |       |       |
                      // |   `   |   1   |   2   |   3   |   4   |   5   |                                    |   6   |   7   |   8   |   9   |   0   |  DEL  |
