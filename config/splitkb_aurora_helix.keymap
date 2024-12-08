@@ -59,10 +59,10 @@ As such, those are in use within the default layer at this time.*/
 
             bindings = <
 &kp F11  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &kp F6             &kp F7          &kp F8      &kp F9      &kp F10               &kp F12
-&none    &none   &none   &none   &none   &none                     &kp C_VOLUME_UP    &kp K_MUTE      &kp UP      &none       &kp C_BRIGHTNESS_INC  &none
+&none    &none   &none   &none   &none   &none                     &kp C_VOLUME_UP    &kp K_MUTE      &kp UP      &none       &kp C_BRIGHTNESS_INC  &kp PRINTSCREEN
 &none    &none   &none   &none   &none   &none                     &kp C_VOLUME_DOWN  &kp LEFT        &kp DOWN    &kp RIGHT   &kp C_BRIGHTNESS_DEC  &none
 &trans   &none   &none   &none   &none   &none   &none     &trans  &none              &kp RS(C_PREV)  &kp C_PLAY  &kp C_NEXT  &none                 &none
-&trans   &none   &none   &none   &trans  &trans  &trans    &none   &none              &none           &none       &none       &none                 &none
+&trans   &none   &none   &trans  &trans  &trans  &trans    &none   &kp DELETE         &none           &none       &none       &none                 &none
             >;
         };
 
