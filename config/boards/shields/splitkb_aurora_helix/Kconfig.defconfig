@@ -4,7 +4,7 @@
 if SHIELD_SPLITKB_AURORA_HELIX_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Aurora Helix"
+    default "AuroraHelix"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
