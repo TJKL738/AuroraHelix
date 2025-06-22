@@ -52,8 +52,6 @@ As such, those are in use within the default layer at this time.*/
 &kp LSHFT         &kp Z      &kp X      &kp C     &kp V   &kp B         &kp EQUAL    &tog 1     &kp N          &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &kp GRAVE  &kp GRAVE  &kp LGUI  &mo 1   &kp LEFT_ALT  &kp SPACE    &kp ENTER  &kp BACKSPACE  &mo 2   &kp MINUS  &tog 3      &mo 4      &mo 5
             >;
-
-            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         Aud {
