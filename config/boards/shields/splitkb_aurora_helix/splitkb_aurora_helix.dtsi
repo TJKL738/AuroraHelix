@@ -31,6 +31,9 @@
         >;
     };
 
+    kscan0: kscan0 {
+    };
+
     left_encoder: left_encoder {
         compatible = "alps,ec11";
         steps = <144>;
