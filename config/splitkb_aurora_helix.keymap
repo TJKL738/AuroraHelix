@@ -117,5 +117,15 @@ As such, those are in use within the default layer at this time.*/
 &none         &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
             >;
         };
+
+        layer_6 {
+            bindings = <
+&kp LSHFT     &kp W      &kp N2    &kp FSLH   &kp M    &kp N9                                 &kp N4           &kp Q      &kp H     &kp COMMA  &kp A      &kp LEFT_BRACE
+&kp LCTRL     &kp N0     &kp W     &kp R      &kp U    &kp J                                  &kp N7           &kp O      &kp B     &kp P      &kp Z      &kp CAPSLOCK
+&kp LGUI      &kp I      &kp F     &kp G      &kp D    &kp Y                                  &kp S            &kp T      &kp V     &kp K      &kp L      &kp MINUS
+&kp LEFT_ALT  &kp X      &kp N3    &kp S      &kp C    &kp B     &kp N0            &kp SPACE  &kp SEMI         &kp G      &kp E     &kp N1     &kp DOT    &kp RIGHT_BRACKET
+&kp ESC       &kp GRAVE  &kp LBKT  &kp COMMA  &kp SQT  &kp BSPC  &kp LEFT_SHIFT    &kp BSLH   &kp RIGHT_BRACE  &kp EQUAL  &kp BSPC  &kp DEL    &kp ENTER  &kp STAR
+            >;
+        };
     };
 };
